@@ -1,0 +1,25 @@
+.notfound {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.notfound .btn {
+  margin-top: 2rem;
+  display: inline-block;
+}
+.text {
+    font-size: 10rem;
+   animation: animate 8s ease-in;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(720deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 0.8;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
